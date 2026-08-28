@@ -8,7 +8,7 @@ public abstract class ShipmentDecorator implements Shipment {
 
     public ShipmentDecorator(Shipment wrappedShipment) {
         if (wrappedShipment == null)
-            throw new IllegalArgumentException("wrappedShipment must not be null");
+        throw new IllegalArgumentException("wrappedShipment must not be null");
         this.wrappedShipment = wrappedShipment;
     }
 
